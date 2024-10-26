@@ -6,6 +6,7 @@ Features
 - Quiz Navigation: Users can start a quiz and progress through questions while tracking their score.
 - Question Addition: New questions can be added to each quiz, with data stored in localStorage for a consistent experience.
 - Score Display: After completing the quiz, users receive their total score, showcasing a simple and interactive feedback loop.
+
 Tech Stack: Next.js, React, LocalStorage API, JSON API
 
 Installation and Setup
