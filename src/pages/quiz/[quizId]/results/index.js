@@ -1,18 +1,17 @@
-import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import Link from "next/link";
+import path from "path";
+import fs from "fs";
 
-export default function Results() {
+export default function Results({ quizData }) {
     const router = useRouter();
     const { score, quizId } = router.query;
 
-    const [quizData, setQuizData] = useState(null);
-
-    // Scorul final primit din query sau 0 în caz că lipsește
+    // Score from query or default to 0 in case it's missing
     const finalScore = score ? Number(score) : 0;
-    const totalQuestions = quizData?.quizQuestions.length || 0; // Numărul total de întrebări
+    const totalQuestions = quizData?.quizQuestions.length || 0; // Get the total number of questions
 
-    // Mesajul personalizat în funcție de scor
+    // Customize message based on score
     const getResultsMessage = (score) => {
         if (score === 0) {
             return "Better luck next time!";
@@ -23,58 +22,52 @@ export default function Results() {
         }
     };
 
-    useEffect(() => {
-        if (!quizId) return;
-
-        async function fetchQuizData() {
-            try {
-                const response = await fetch("/api/questions"); // încărcăm întrebările din JSON
-                const data = await response.json();
-                const quiz = data.quizzes.find((q) => q.quizId === quizId);
-
-                // Încărcăm întrebările noi din localStorage și le adăugăm la cele existente
-                const savedQuestions = JSON.parse(localStorage.getItem("questions") || "[]");
-                const localQuizQuestions = savedQuestions.filter((q) => q.quizId === quizId);
-                
-                setQuizData({
-                    ...quiz,
-                    quizQuestions: [...quiz.quizQuestions, ...localQuizQuestions],
-                });
-            } catch (error) {
-                console.error("Failed to load quiz data:", error);
-            }
-        }
-        
-        fetchQuizData();
-    }, [quizId]);
-
-    if (!quizData) return <p>Loading...</p>;
-
     return (
-        <div 
-        className={`grid grid-rows-[40px_2fr_40px] items-center justify-items-center p-8 pb-20 gap-16 sm:p-20`}
->
-            <h1>Quiz Results for {quizData.quizName}</h1>
+        <div
+            className={`grid grid-rows-[20px_1fr_20px] justify-items-center p-8 pb-20 gap-16 sm:p-20`}
+        >
+            <h1>Quiz Results for {quizData?.quizName}</h1> {/* Display the quiz name */}
             <p>
                 You answered <strong>{finalScore}</strong> out of{" "}
                 <strong>{totalQuestions}</strong> questions correctly.
             </p>
             <h2>{getResultsMessage(finalScore)}</h2>
             <div>
+                {/* Add a button to go back to home or retake the quiz */}
                 <Link href="/">
-                    <button >Go to Home</button>
+                    <button style={{ marginTop: '20px' }}>Go to Home</button>
                 </Link>
 
                 <Link href={`/quiz/${quizId}`}>
-                    <button style={{marginLeft: '10px' }}>
+                    <button style={{ marginTop: '20px', marginLeft: '10px' }}>
                         Retake Quiz
                     </button>
-                </Link>
-
-                <Link href={`/quiz/${quizId}/add-question`}>
-                <button style={{marginLeft: '10px' }}>Add new question</button>
                 </Link>
             </div>
         </div>
     );
+}
+
+export async function getServerSideProps(context) {
+    const { quizId } = context.params;
+
+    // Load the quiz data from the JSON file
+    const filePath = path.join(process.cwd(), 'public', 'quizzes.json');
+    const fileContent = fs.readFileSync(filePath, 'utf8');
+    const allQuizzes = JSON.parse(fileContent).quizzes;
+
+    // Find the quiz matching the quizId
+    const quizData = allQuizzes.find(quiz => quiz.quizId === quizId);
+
+    if (!quizData) {
+        return {
+            notFound: true,
+        };
+    }
+
+    return {
+        props: {
+            quizData, // Pass the specific quiz data to the page
+        },
+    };
 }

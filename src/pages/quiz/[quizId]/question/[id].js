@@ -1,50 +1,53 @@
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { useRouter } from "next/router";
+import Link from "next/link";
 
-export default function Question() {
+import fs from "fs";
+import path from "path";
+
+export async function getServerSideProps(context) {
+    const { quizId } = context.params;
+
+    // Load the quiz data from the JSON file
+    const filePath = path.join(process.cwd(), 'public', 'quizzes.json');
+    const fileContent = fs.readFileSync(filePath, 'utf8');
+    const allQuizzes = JSON.parse(fileContent).quizzes;
+
+    // Find the quiz matching the quizId
+    const quizData = allQuizzes.find(quiz => quiz.quizId === quizId);
+
+    if (!quizData) {
+        return {
+            notFound: true,
+        };
+    }
+
+    return {
+        props: {
+            quizData, // Pass the specific quiz data to the page
+        },
+    };
+}
+
+
+export default function Question({ quizData }) {
     const router = useRouter();
     const { quizId, id } = router.query;
 
-    const [quizData, setQuizData] = useState(null);
     const [score, setScore] = useState(0);
     const [selectedAnswer, setSelectedAnswer] = useState(null);
     const [feedback, setFeedback] = useState("");
     const [isAnswered, setIsAnswered] = useState(false);
 
-    useEffect(() => {
-        if (!quizId) return;
-
-        async function fetchQuizData() {
-            try {
-                const response = await fetch("/api/questions"); // încărcăm întrebările din JSON
-                const data = await response.json();
-                const quiz = data.quizzes.find((q) => q.quizId === quizId);
-
-                // Încărcăm întrebările noi din localStorage și le adăugăm la cele existente
-                const savedQuestions = JSON.parse(localStorage.getItem("questions") || "[]");
-                const localQuizQuestions = savedQuestions.filter((q) => q.quizId === quizId);
-                
-                setQuizData({
-                    ...quiz,
-                    quizQuestions: [...quiz.quizQuestions, ...localQuizQuestions],
-                });
-            } catch (error) {
-                console.error("Failed to load quiz data:", error);
-            }
-        }
-
-        fetchQuizData();
-    }, [quizId]);
-
     if (!quizId || !id) return <p>Loading...</p>;
 
     const questionId = Number(id);
-    const currentQuestion = quizData?.quizQuestions[questionId];
+    const currentQuestion = quizData.quizQuestions[questionId];
 
     const handleAnswerSelection = (answer) => {
         setSelectedAnswer(answer);
         setIsAnswered(true);
-
+        
         if (answer === currentQuestion.rightAnswer) {
             setScore((prevScore) => prevScore + 1);
             setFeedback("Correct!");
@@ -66,15 +69,17 @@ export default function Question() {
     };
 
     return (
-        <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center p-8 pb-20 gap-16 sm:p-20">
-            <h1>{quizData?.quizName}</h1>
-            <h4>Question {questionId + 1} of {quizData?.quizQuestions.length}</h4>
+        <div
+        className={`grid grid-rows-[20px_1fr_20px] items-center justify-items-center p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]`}
+>
+            <h1>{quizData.quizName}</h1>
+            <h4>Question {questionId + 1} of {quizData.quizQuestions.length}</h4>
             <h4>Current Score: {score}</h4>
 
-            <h3>{currentQuestion?.question}</h3>
+            <h3>{currentQuestion.question}</h3>
 
             <div>
-                {currentQuestion?.answers.map((answer, index) => (
+                {currentQuestion.answers.map((answer, index) => (
                     <div key={index}>
                         <input
                             type="radio"
@@ -91,10 +96,11 @@ export default function Question() {
             </div>
 
             <button onClick={handleNext} disabled={!isAnswered}>
-                {questionId < quizData?.quizQuestions.length - 1 ? "Next Question" : "Finish Test"}
+                {questionId < quizData.quizQuestions.length - 1 ? "Next Question" : "Finish Test"}
             </button>
 
             {isAnswered && <p>{feedback}</p>}
         </div>
     );
 }
+
