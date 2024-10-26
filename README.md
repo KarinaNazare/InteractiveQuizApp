@@ -1,5 +1,7 @@
 # InteractiveQuizApp
+
 Description
+
 This project is a dynamic quiz application built with Next.js, where users can navigate through quizzes, answer questions, and add new ones. The app integrates data from a JSON API and localStorage, providing a customizable and interactive quiz experience.
 
 Features
