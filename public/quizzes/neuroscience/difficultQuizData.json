@@ -1,0 +1,40 @@
+[
+    {
+        "question": "Which neurotransmitter is primarily involved in the brain's reward system and addiction mechanisms?",
+        "answers": ["Dopamine","Serotonin","GABA","Glutamate"],
+        "rightAnswer": "Dopamine",
+        "id": "QSTN_001_D_NEUR"
+    },
+    {
+        "question": "What is the primary role of the basal ganglia in the brain?",
+        "answers": ["Regulating emotions", "Coordinating voluntary movements", "Processing sensory input", "Regulating body temperature"],
+        "rightAnswer": "Coordinating voluntary movements",
+        "id": "QSTN_002_D_NEUR"
+    },{
+        "question": "Which type of glial cell is involved in the formation of the blood-brain barrier?",
+        "answers": ["Oligodendrocytes", "Astrocytes", "Microglia", "Schwann cells"],
+        "rightAnswer": "Astrocytes",
+        "id": "QSTN_003_D_NEUR"
+    },
+    {
+        "question": "What is the main function of the corpus callosum?",
+        "answers": ["Connects the two hemispheres of the brain","Processes auditory information", "Controls autonomic functions", "Produces cerebrospinal fluid"],
+        "rightAnswer": "Connects the two hemispheres of the brain",
+        "id": "QSTN_004_D_NEUR"
+    },{
+        "question": "Which brain wave is typically associated with deep sleep stages?",
+        "answers": ["Alpha waves","Theta waves", "Beta waves", "Delta waves"],
+        "rightAnswer": "Delta waves",
+        "id": "QSTN_005_D_NEUR"
+    },{
+        "question": "What is the primary function of the substantia nigra in the brain?",
+        "answers": ["Regulates visual processing","Involved in the production of dopamine for motor control", "Coordinates speech and language", "Processes olfactory information"],
+        "rightAnswer": "Involved in the production of dopamine for motor control",
+        "id": "QSTN_006_D_NEUR"
+    },{
+        "question": "Which ion is critical for the release of neurotransmitters at synaptic terminals?",
+        "answers": ["Potassium (K+)","Sodium (Na+)", "Calcium (Ca2+)", "Chloride (Cl-)"],
+        "rightAnswer": "Calcium (Ca2+)",
+        "id": "QSTN_007_D_NEUR"
+    }
+    ]

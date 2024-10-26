@@ -1,0 +1,39 @@
+[
+    {
+        "question": "Which part of a plant is responsible for photosynthesis?",
+        "answers": ["Roots","Flowers","Leaves","Stems"],
+        "rightAnswer": "Leaves",
+        "id": "QSTN_001_E_BOTN"
+    },
+    {
+        "question": "What is the process by which plants lose water vapor from their leaves?",
+        "answers": ["Transpiration", "Photosynthesis", "Respiration", "Germination"],
+        "rightAnswer": "Transpiration",
+        "id": "QSTN_002_E_BOTN"
+    },{
+        "question": "What is the main purpose of a plant’s flowers?",
+        "answers": ["To attract insects", "To support leaves", "Reproduction", "Water storage"],
+        "rightAnswer": "Reproduction",
+        "id": "QSTN_003_E_BOTN"
+    },{
+        "question": "Which of the following plants is a gymnosperm?",
+        "answers": ["Pine Tree", "Rose", "Apple Tree", "Fern"],
+        "rightAnswer": "Pine Tree",
+        "id": "QSTN_004_E_BOTN"
+    },{
+        "question": "What is the scientific term for the arrangement of leaves on a stem?",
+        "answers": ["Phyllotaxy","Chloroplast", "Stomata", "Germination"],
+        "rightAnswer": "Phyllotaxy",
+        "id": "QSTN_005_E_BOTN"
+    },{
+        "question": "Which gas do plants absorb during photosynthesis?",
+        "answers": ["Nitrogen","Oxygen", "Carbon Dioxide", "Hydrogen"],
+        "rightAnswer": "Carbon Dioxide",
+        "id": "QSTN_006_E_BOTN"
+    },{
+        "question": "What is the scientific (Latin) name of the common sunflower?",
+        "answers": ["Rosa canina","Helianthus annuus", "Quercus robur", "Ficus elastica"],
+        "rightAnswer": "Helianthus annuus",
+        "id": "QSTN_007_E_BOTN"
+    }
+    ]

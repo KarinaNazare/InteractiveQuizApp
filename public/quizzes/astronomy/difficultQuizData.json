@@ -1,0 +1,39 @@
+[
+    {
+        "question": "What is the estimated age of the universe according to the Big Bang theory?",
+        "answers": ["4.5 billion years","10.8 billion years","13.8 billion years","20.5 billion years"],
+        "rightAnswer": "13.8 billion years",
+        "id": "QSTN_001_D_ASTR"
+    },
+    {
+        "question": "Which element is produced during the triple-alpha process in stellar nucleosynthesis?",
+        "answers": ["Helium", "Carbon", "Oxygen", "Iron"],
+        "rightAnswer": "Carbon",
+        "id": "QSTN_002_D_ASTR"
+    },{
+        "question": "Which of the following is the name of the largest known structure in the observable universe?",
+        "answers": ["The Hercules-Corona Borealis Great Wall", "The Virgo Supercluster", "The Local Group", "The Sloan Great Wall"],
+        "rightAnswer": "The Hercules-Corona Borealis Great Wall",
+        "id": "QSTN_003_D_ASTR"
+    },{
+        "question": "What is the term for the point in a planet's orbit when it is farthest from the Sun?",
+        "answers": ["Perihelion", "Aphelion", "Equinox", "Zenith"],
+        "rightAnswer": "Aphelion",
+        "id": "QSTN_004_D_ASTR"
+    },{
+        "question": "Which spacecraft was the first to pass through the asteroid belt and reach Jupiter?",
+        "answers": ["Pioneer 10","Voyager 1", "New Horizons", "Galileo"],
+        "rightAnswer": "Pioneer 10",
+        "id": "QSTN_005_D_ASTR"
+    },{
+        "question": "What is the critical density of the universe associated with?",
+        "answers": ["The amount of dark energy required to sustain expansion","The mass density that determines the geometry of the universe", "The energy produced in a quasar", "The mass of neutron stars"],
+        "rightAnswer": "The mass density that determines the geometry of the universe",
+        "id": "QSTN_006_D_ASTR"
+    },{
+        "question": "What is the term for the phenomenon when a planet or moon has the same rotational period as its orbital period, showing only one face to the object it orbits?",
+        "answers": ["Tidal locking","Retrograde motion", "Eccentricity", "Opposition"],
+        "rightAnswer": "Tidal locking",
+        "id": "QSTN_007_D_ASTR"
+    }
+    ]

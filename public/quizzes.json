@@ -1,524 +1,275 @@
 {
-  "quizzes": [
-    {
-      "quizId": "astronomy_easy",
-      "subject": "Astronomy",
-      "difficulty": "easy",
-      "quizName": "Astronomy Easy Quiz",
-      "quizQuestions": [
+    "quizzes": [
         {
-          "question": "What is the closest planet to the Sun?",
-          "answers": [
-            "Venus",
-            "Saturn",
-            "Mars",
-            "Mercury"
-          ],
-          "rightAnswer": "Mercury",
-          "id": "QSTN_001_E_ASTR"
+            "quizId": "astronomy_easy",
+            "subject": "Astronomy",
+            "difficulty": "easy",
+            "quizName": "Astronomy Easy Quiz",
+            "quizQuestions": [{
+                "question": "What is the closest planet to the Sun?",
+                "answers": ["Venus","Saturn","Mars","Mercury"],
+                "rightAnswer": "Mercury",
+                "id": "QSTN_001_E_ASTR"
+            },
+            {
+                "question": "How many moons does Earth have?",
+                "answers": [1, 2, 3, 0],
+                "rightAnswer": 2,
+                "id": "QSTN_002_E_ASTR"
+            },{
+                "question": "What inspired our naming of the Solar System planets?",
+                "answers": ["Greek mythology", "Roman mythology", "Celtic mythology", "Sumerian mythology"],
+                "rightAnswer": "Roman mythology",
+                "id": "QSTN_003_E_ASTR"
+            },{
+                "question": "How many moons does Jupiter have?",
+                "answers": [95, 100, 9, 27],
+                "rightAnswer": 95,
+                "id": "QSTN_004_E_ASTR"
+            },{
+                "question": "What is the largest type of star in the universe?",
+                "answers": ["White Dwarf","Red Supergiant", "Neutron Star", "Yellow Dwarf"],
+                "rightAnswer": "Red Supergiant",
+                "id": "QSTN_005_E_ASTR"
+            },{
+                "question": "What is the main component of the Sun?",
+                "answers": ["Helium","Oxygen", "Carbon", "Hydrogen"],
+                "rightAnswer": "Hydrogen",
+                "id": "QSTN_006_E_ASTR"
+            },{
+                "question": "Which planet has a day that lasts longer than its year?",
+                "answers": ["Mercury","Venus", "Earth", "Mars"],
+                "rightAnswer": "Venus",
+                "id": "QSTN_007_E_ASTR"
+            }
+            ]
         },
         {
-          "question": "How many moons does Earth have?",
-          "answers": [
-            1,
-            2,
-            3,
-            0
-          ],
-          "rightAnswer": 2,
-          "id": "QSTN_002_E_ASTR"
+            "quizId": "astronomy_difficult",
+            "subject": "Astronomy",
+            "difficulty": "difficult",
+            "quizName": "Astronomy Difficult Quiz",
+            "quizQuestions": [
+                {
+                    "question": "What is the estimated age of the universe according to the Big Bang theory?",
+                    "answers": ["4.5 billion years","10.8 billion years","13.8 billion years","20.5 billion years"],
+                    "rightAnswer": "13.8 billion years",
+                    "id": "QSTN_001_D_ASTR"
+                },
+                {
+                    "question": "Which element is produced during the triple-alpha process in stellar nucleosynthesis?",
+                    "answers": ["Helium", "Carbon", "Oxygen", "Iron"],
+                    "rightAnswer": "Carbon",
+                    "id": "QSTN_002_D_ASTR"
+                },{
+                    "question": "Which of the following is the name of the largest known structure in the observable universe?",
+                    "answers": ["The Hercules-Corona Borealis Great Wall", "The Virgo Supercluster", "The Local Group", "The Sloan Great Wall"],
+                    "rightAnswer": "The Hercules-Corona Borealis Great Wall",
+                    "id": "QSTN_003_D_ASTR"
+                },{
+                    "question": "What is the term for the point in a planet's orbit when it is farthest from the Sun?",
+                    "answers": ["Perihelion", "Aphelion", "Equinox", "Zenith"],
+                    "rightAnswer": "Aphelion",
+                    "id": "QSTN_004_D_ASTR"
+                },{
+                    "question": "Which spacecraft was the first to pass through the asteroid belt and reach Jupiter?",
+                    "answers": ["Pioneer 10","Voyager 1", "New Horizons", "Galileo"],
+                    "rightAnswer": "Pioneer 10",
+                    "id": "QSTN_005_D_ASTR"
+                },{
+                    "question": "What is the critical density of the universe associated with?",
+                    "answers": ["The amount of dark energy required to sustain expansion","The mass density that determines the geometry of the universe", "The energy produced in a quasar", "The mass of neutron stars"],
+                    "rightAnswer": "The mass density that determines the geometry of the universe",
+                    "id": "QSTN_006_D_ASTR"
+                },{
+                    "question": "What is the term for the phenomenon when a planet or moon has the same rotational period as its orbital period, showing only one face to the object it orbits?",
+                    "answers": ["Tidal locking","Retrograde motion", "Eccentricity", "Opposition"],
+                    "rightAnswer": "Tidal locking",
+                    "id": "QSTN_007_D_ASTR"
+                }
+                ]
         },
         {
-          "question": "What inspired our naming of the Solar System planets?",
-          "answers": [
-            "Greek mythology",
-            "Roman mythology",
-            "Celtic mythology",
-            "Sumerian mythology"
-          ],
-          "rightAnswer": "Roman mythology",
-          "id": "QSTN_003_E_ASTR"
+            "quizId": "botany_easy",
+            "subject": "Botany",
+            "difficulty": "easy",
+            "quizName": "Botany Easy Quiz",
+            "quizQuestions": [
+                {
+                    "question": "Which part of a plant is responsible for photosynthesis?",
+                    "answers": ["Roots","Flowers","Leaves","Stems"],
+                    "rightAnswer": "Leaves",
+                    "id": "QSTN_001_E_BOTN"
+                },
+                {
+                    "question": "What is the process by which plants lose water vapor from their leaves?",
+                    "answers": ["Transpiration", "Photosynthesis", "Respiration", "Germination"],
+                    "rightAnswer": "Transpiration",
+                    "id": "QSTN_002_E_BOTN"
+                },{
+                    "question": "What is the main purpose of a plant’s flowers?",
+                    "answers": ["To attract insects", "To support leaves", "Reproduction", "Water storage"],
+                    "rightAnswer": "Reproduction",
+                    "id": "QSTN_003_E_BOTN"
+                },{
+                    "question": "Which of the following plants is a gymnosperm?",
+                    "answers": ["Pine Tree", "Rose", "Apple Tree", "Fern"],
+                    "rightAnswer": "Pine Tree",
+                    "id": "QSTN_004_E_BOTN"
+                },{
+                    "question": "What is the scientific term for the arrangement of leaves on a stem?",
+                    "answers": ["Phyllotaxy","Chloroplast", "Stomata", "Germination"],
+                    "rightAnswer": "Phyllotaxy",
+                    "id": "QSTN_005_E_BOTN"
+                },{
+                    "question": "Which gas do plants absorb during photosynthesis?",
+                    "answers": ["Nitrogen","Oxygen", "Carbon Dioxide", "Hydrogen"],
+                    "rightAnswer": "Carbon Dioxide",
+                    "id": "QSTN_006_E_BOTN"
+                },{
+                    "question": "What is the scientific (Latin) name of the common sunflower?",
+                    "answers": ["Rosa canina","Helianthus annuus", "Quercus robur", "Ficus elastica"],
+                    "rightAnswer": "Helianthus annuus",
+                    "id": "QSTN_007_E_BOTN"
+                }
+                ]
         },
         {
-          "question": "How many moons does Jupiter have?",
-          "answers": [
-            95,
-            100,
-            9,
-            27
-          ],
-          "rightAnswer": 95,
-          "id": "QSTN_004_E_ASTR"
+            "quizId": "botany_difficult",
+            "subject": "Botany",
+            "difficulty": "difficult",
+            "quizName": "Botany Difficult Quiz",
+            "quizQuestions": [
+                {
+                    "question": "What is the primary reason C4 plants are more efficient in hot climates than C3 plants?",
+                    "answers": ["Better water retention","More efficient CO2 fixation at high temperatures","Resistance to UV radiation","Faster growth rates"],
+                    "rightAnswer": "More efficient CO2 fixation at high temperatures",
+                    "id": "QSTN_001_D_BOTN"
+                },
+                {
+                    "question": "What type of plant tissue is responsible for transporting water and nutrients from the roots to the leaves?",
+                    "answers": ["Phloem", "Xylem", "Cambium", "Cortex"],
+                    "rightAnswer": "Xylem",
+                    "id": "QSTN_002_D_BOTN"
+                },{
+                    "question": "Which plant hormone is primarily responsible for fruit ripening?",
+                    "answers": ["Auxin", "Cytokinin", "Ethylene", "Gibberellin"],
+                    "rightAnswer": "Ethylene",
+                    "id": "QSTN_003_D_BOTN"
+                },{
+                    "question": "What is the scientific name of the common dandelion?",
+                    "answers": ["Taraxacum officinale", "Bellis perennis", "Echinacea purpurea", "Matricaria chamomilla"],
+                    "rightAnswer": "Taraxacum officinale",
+                    "id": "QSTN_004_D_BOTN"
+                },{
+                    "question": "In which part of a flower is the ovule found?",
+                    "answers": ["Stigma","Anther", "Ovary", "Filament"],
+                    "rightAnswer": "Ovary",
+                    "id": "QSTN_005_D_BOTN"
+                },{
+                    "question": "Which type of plastid is primarily responsible for storing starch in plants?",
+                    "answers": ["Chloroplast","Chromoplast", "Amyloplast", "Leucoplast"],
+                    "rightAnswer": "Amyloplast",
+                    "id": "QSTN_006_D_BOTN"
+                },{
+                    "question": "Which plant family does the coffee plant (Coffea arabica) belong to?",
+                    "answers": ["Fabaceae","Solanaceae", "Rubiaceae", "Asteraceae"],
+                    "rightAnswer": "Rubiaceae",
+                    "id": "QSTN_007_D_BOTN"
+                }
+                ]
         },
         {
-          "question": "What is the largest type of star in the universe?",
-          "answers": [
-            "White Dwarf",
-            "Red Supergiant",
-            "Neutron Star",
-            "Yellow Dwarf"
-          ],
-          "rightAnswer": "Red Supergiant",
-          "id": "QSTN_005_E_ASTR"
+            "quizId": "neuroscience_easy",
+            "subject": "Neuroscience",
+            "difficulty": "easy",
+            "quizName": "Neuroscience Easy Quiz",
+            "quizQuestions": [
+                {
+                    "question": "What is the primary neurotransmitter involved in muscle movement?",
+                    "answers": ["Dopamine","Serotonin","Acetylcholine","Glutamate"],
+                    "rightAnswer": "Acetylcholine",
+                    "id": "QSTN_001_E_NEUR"
+                },
+                {
+                    "question": "Which part of the brain is responsible for regulating balance and coordination?",
+                    "answers": ["Cerebellum", "Hippocampus", "Amygdala", "Thalamus"],
+                    "rightAnswer": "Cerebellum",
+                    "id": "QSTN_002_E_NEUR"
+                },{
+                    "question": "Which brain region is primarily involved in the formation of long-term memory?",
+                    "answers": ["Frontal Lobe", "Hypothalamus", "Hippocampus", "Occipital Lobe"],
+                    "rightAnswer": "Hippocampus",
+                    "id": "QSTN_003_E_NEUR"
+                },
+                {
+                    "question": "What type of cells in the nervous system are responsible for supporting neurons?",
+                    "answers": ["Neurons","Axons", "Glial Cells", "Dendrites"],
+                    "rightAnswer": "Glial Cells",
+                    "id": "QSTN_004_E_NEUR"
+                },{
+                    "question": "What is the blood-brain barrier primarily responsible for?",
+                    "answers": ["Circulating blood through the brain","Protecting the brain from harmful substances", "Generating neural impulses", "Absorbing nutrients into the brain"],
+                    "rightAnswer": "Protecting the brain from harmful substances",
+                    "id": "QSTN_005_E_NEUR"
+                },{
+                    "question": "Which of the following is a neurotransmitter primarily associated with feelings of pleasure and reward?",
+                    "answers": ["Serotonin","Dopamine", "Norepinephrine", "GABA"],
+                    "rightAnswer": "Dopamine",
+                    "id": "QSTN_006_E_NEUR"
+                },{
+                    "question": "What is the main function of myelin in the nervous system?",
+                    "answers": ["Generating electrical signals","Increasing the speed of signal transmission", "Storing memories", "Absorbing nutrients for neurons"],
+                    "rightAnswer": "Increasing the speed of signal transmission",
+                    "id": "QSTN_007_E_NEUR"
+                }
+                ]
         },
         {
-          "question": "What is the main component of the Sun?",
-          "answers": [
-            "Helium",
-            "Oxygen",
-            "Carbon",
-            "Hydrogen"
-          ],
-          "rightAnswer": "Hydrogen",
-          "id": "QSTN_006_E_ASTR"
-        },
-        {
-          "question": "Which planet has a day that lasts longer than its year?",
-          "answers": [
-            "Mercury",
-            "Venus",
-            "Earth",
-            "Mars"
-          ],
-          "rightAnswer": "Venus",
-          "id": "QSTN_007_E_ASTR"
+            "quizId": "neuroscience_difficult",
+            "subject": "Neuroscience",
+            "difficulty": "difficult",
+            "quizName": "Neuroscience Difficult Quiz",
+            "quizQuestions": [
+                {
+                    "question": "Which neurotransmitter is primarily involved in the brain's reward system and addiction mechanisms?",
+                    "answers": ["Dopamine","Serotonin","GABA","Glutamate"],
+                    "rightAnswer": "Dopamine",
+                    "id": "QSTN_001_D_NEUR"
+                },
+                {
+                    "question": "What is the primary role of the basal ganglia in the brain?",
+                    "answers": ["Regulating emotions", "Coordinating voluntary movements", "Processing sensory input", "Regulating body temperature"],
+                    "rightAnswer": "Coordinating voluntary movements",
+                    "id": "QSTN_002_D_NEUR"
+                },{
+                    "question": "Which type of glial cell is involved in the formation of the blood-brain barrier?",
+                    "answers": ["Oligodendrocytes", "Astrocytes", "Microglia", "Schwann cells"],
+                    "rightAnswer": "Astrocytes",
+                    "id": "QSTN_003_D_NEUR"
+                },
+                {
+                    "question": "What is the main function of the corpus callosum?",
+                    "answers": ["Connects the two hemispheres of the brain","Processes auditory information", "Controls autonomic functions", "Produces cerebrospinal fluid"],
+                    "rightAnswer": "Connects the two hemispheres of the brain",
+                    "id": "QSTN_004_D_NEUR"
+                },{
+                    "question": "Which brain wave is typically associated with deep sleep stages?",
+                    "answers": ["Alpha waves","Theta waves", "Beta waves", "Delta waves"],
+                    "rightAnswer": "Delta waves",
+                    "id": "QSTN_005_D_NEUR"
+                },{
+                    "question": "What is the primary function of the substantia nigra in the brain?",
+                    "answers": ["Regulates visual processing","Involved in the production of dopamine for motor control", "Coordinates speech and language", "Processes olfactory information"],
+                    "rightAnswer": "Involved in the production of dopamine for motor control",
+                    "id": "QSTN_006_D_NEUR"
+                },{
+                    "question": "Which ion is critical for the release of neurotransmitters at synaptic terminals?",
+                    "answers": ["Potassium (K+)","Sodium (Na+)", "Calcium (Ca2+)", "Chloride (Cl-)"],
+                    "rightAnswer": "Calcium (Ca2+)",
+                    "id": "QSTN_007_D_NEUR"
+                }
+                ]
         }
-      ]
-    },
-    {
-      "quizId": "astronomy_difficult",
-      "subject": "Astronomy",
-      "difficulty": "difficult",
-      "quizName": "Astronomy Difficult Quiz",
-      "quizQuestions": [
-        {
-          "question": "What is the estimated age of the universe according to the Big Bang theory?",
-          "answers": [
-            "4.5 billion years",
-            "10.8 billion years",
-            "13.8 billion years",
-            "20.5 billion years"
-          ],
-          "rightAnswer": "13.8 billion years",
-          "id": "QSTN_001_D_ASTR"
-        },
-        {
-          "question": "Which element is produced during the triple-alpha process in stellar nucleosynthesis?",
-          "answers": [
-            "Helium",
-            "Carbon",
-            "Oxygen",
-            "Iron"
-          ],
-          "rightAnswer": "Carbon",
-          "id": "QSTN_002_D_ASTR"
-        },
-        {
-          "question": "Which of the following is the name of the largest known structure in the observable universe?",
-          "answers": [
-            "The Hercules-Corona Borealis Great Wall",
-            "The Virgo Supercluster",
-            "The Local Group",
-            "The Sloan Great Wall"
-          ],
-          "rightAnswer": "The Hercules-Corona Borealis Great Wall",
-          "id": "QSTN_003_D_ASTR"
-        },
-        {
-          "question": "What is the term for the point in a planet's orbit when it is farthest from the Sun?",
-          "answers": [
-            "Perihelion",
-            "Aphelion",
-            "Equinox",
-            "Zenith"
-          ],
-          "rightAnswer": "Aphelion",
-          "id": "QSTN_004_D_ASTR"
-        },
-        {
-          "question": "Which spacecraft was the first to pass through the asteroid belt and reach Jupiter?",
-          "answers": [
-            "Pioneer 10",
-            "Voyager 1",
-            "New Horizons",
-            "Galileo"
-          ],
-          "rightAnswer": "Pioneer 10",
-          "id": "QSTN_005_D_ASTR"
-        },
-        {
-          "question": "What is the critical density of the universe associated with?",
-          "answers": [
-            "The amount of dark energy required to sustain expansion",
-            "The mass density that determines the geometry of the universe",
-            "The energy produced in a quasar",
-            "The mass of neutron stars"
-          ],
-          "rightAnswer": "The mass density that determines the geometry of the universe",
-          "id": "QSTN_006_D_ASTR"
-        },
-        {
-          "question": "What is the term for the phenomenon when a planet or moon has the same rotational period as its orbital period, showing only one face to the object it orbits?",
-          "answers": [
-            "Tidal locking",
-            "Retrograde motion",
-            "Eccentricity",
-            "Opposition"
-          ],
-          "rightAnswer": "Tidal locking",
-          "id": "QSTN_007_D_ASTR"
-        }
-      ]
-    },
-    {
-      "quizId": "botany_easy",
-      "subject": "Botany",
-      "difficulty": "easy",
-      "quizName": "Botany Easy Quiz",
-      "quizQuestions": [
-        {
-          "question": "Which part of a plant is responsible for photosynthesis?",
-          "answers": [
-            "Roots",
-            "Flowers",
-            "Leaves",
-            "Stems"
-          ],
-          "rightAnswer": "Leaves",
-          "id": "QSTN_001_E_BOTN"
-        },
-        {
-          "question": "What is the process by which plants lose water vapor from their leaves?",
-          "answers": [
-            "Transpiration",
-            "Photosynthesis",
-            "Respiration",
-            "Germination"
-          ],
-          "rightAnswer": "Transpiration",
-          "id": "QSTN_002_E_BOTN"
-        },
-        {
-          "question": "What is the main purpose of a plant’s flowers?",
-          "answers": [
-            "To attract insects",
-            "To support leaves",
-            "Reproduction",
-            "Water storage"
-          ],
-          "rightAnswer": "Reproduction",
-          "id": "QSTN_003_E_BOTN"
-        },
-        {
-          "question": "Which of the following plants is a gymnosperm?",
-          "answers": [
-            "Pine Tree",
-            "Rose",
-            "Apple Tree",
-            "Fern"
-          ],
-          "rightAnswer": "Pine Tree",
-          "id": "QSTN_004_E_BOTN"
-        },
-        {
-          "question": "What is the scientific term for the arrangement of leaves on a stem?",
-          "answers": [
-            "Phyllotaxy",
-            "Chloroplast",
-            "Stomata",
-            "Germination"
-          ],
-          "rightAnswer": "Phyllotaxy",
-          "id": "QSTN_005_E_BOTN"
-        },
-        {
-          "question": "Which gas do plants absorb during photosynthesis?",
-          "answers": [
-            "Nitrogen",
-            "Oxygen",
-            "Carbon Dioxide",
-            "Hydrogen"
-          ],
-          "rightAnswer": "Carbon Dioxide",
-          "id": "QSTN_006_E_BOTN"
-        },
-        {
-          "question": "What is the scientific (Latin) name of the common sunflower?",
-          "answers": [
-            "Rosa canina",
-            "Helianthus annuus",
-            "Quercus robur",
-            "Ficus elastica"
-          ],
-          "rightAnswer": "Helianthus annuus",
-          "id": "QSTN_007_E_BOTN"
-        },
-        {
-          "question": "grrrgfgf",
-          "answers": [
-            "1",
-            "2",
-            "3",
-            "4"
-          ],
-          "rightAnswer": "2"
-        }
-      ]
-    },
-    {
-      "quizId": "botany_difficult",
-      "subject": "Botany",
-      "difficulty": "difficult",
-      "quizName": "Botany Difficult Quiz",
-      "quizQuestions": [
-        {
-          "question": "What is the primary reason C4 plants are more efficient in hot climates than C3 plants?",
-          "answers": [
-            "Better water retention",
-            "More efficient CO2 fixation at high temperatures",
-            "Resistance to UV radiation",
-            "Faster growth rates"
-          ],
-          "rightAnswer": "More efficient CO2 fixation at high temperatures",
-          "id": "QSTN_001_D_BOTN"
-        },
-        {
-          "question": "What type of plant tissue is responsible for transporting water and nutrients from the roots to the leaves?",
-          "answers": [
-            "Phloem",
-            "Xylem",
-            "Cambium",
-            "Cortex"
-          ],
-          "rightAnswer": "Xylem",
-          "id": "QSTN_002_D_BOTN"
-        },
-        {
-          "question": "Which plant hormone is primarily responsible for fruit ripening?",
-          "answers": [
-            "Auxin",
-            "Cytokinin",
-            "Ethylene",
-            "Gibberellin"
-          ],
-          "rightAnswer": "Ethylene",
-          "id": "QSTN_003_D_BOTN"
-        },
-        {
-          "question": "What is the scientific name of the common dandelion?",
-          "answers": [
-            "Taraxacum officinale",
-            "Bellis perennis",
-            "Echinacea purpurea",
-            "Matricaria chamomilla"
-          ],
-          "rightAnswer": "Taraxacum officinale",
-          "id": "QSTN_004_D_BOTN"
-        },
-        {
-          "question": "In which part of a flower is the ovule found?",
-          "answers": [
-            "Stigma",
-            "Anther",
-            "Ovary",
-            "Filament"
-          ],
-          "rightAnswer": "Ovary",
-          "id": "QSTN_005_D_BOTN"
-        },
-        {
-          "question": "Which type of plastid is primarily responsible for storing starch in plants?",
-          "answers": [
-            "Chloroplast",
-            "Chromoplast",
-            "Amyloplast",
-            "Leucoplast"
-          ],
-          "rightAnswer": "Amyloplast",
-          "id": "QSTN_006_D_BOTN"
-        },
-        {
-          "question": "Which plant family does the coffee plant (Coffea arabica) belong to?",
-          "answers": [
-            "Fabaceae",
-            "Solanaceae",
-            "Rubiaceae",
-            "Asteraceae"
-          ],
-          "rightAnswer": "Rubiaceae",
-          "id": "QSTN_007_D_BOTN"
-        }
-      ]
-    },
-    {
-      "quizId": "neuroscience_easy",
-      "subject": "Neuroscience",
-      "difficulty": "easy",
-      "quizName": "Neuroscience Easy Quiz",
-      "quizQuestions": [
-        {
-          "question": "What is the primary neurotransmitter involved in muscle movement?",
-          "answers": [
-            "Dopamine",
-            "Serotonin",
-            "Acetylcholine",
-            "Glutamate"
-          ],
-          "rightAnswer": "Acetylcholine",
-          "id": "QSTN_001_E_NEUR"
-        },
-        {
-          "question": "Which part of the brain is responsible for regulating balance and coordination?",
-          "answers": [
-            "Cerebellum",
-            "Hippocampus",
-            "Amygdala",
-            "Thalamus"
-          ],
-          "rightAnswer": "Cerebellum",
-          "id": "QSTN_002_E_NEUR"
-        },
-        {
-          "question": "Which brain region is primarily involved in the formation of long-term memory?",
-          "answers": [
-            "Frontal Lobe",
-            "Hypothalamus",
-            "Hippocampus",
-            "Occipital Lobe"
-          ],
-          "rightAnswer": "Hippocampus",
-          "id": "QSTN_003_E_NEUR"
-        },
-        {
-          "question": "What type of cells in the nervous system are responsible for supporting neurons?",
-          "answers": [
-            "Neurons",
-            "Axons",
-            "Glial Cells",
-            "Dendrites"
-          ],
-          "rightAnswer": "Glial Cells",
-          "id": "QSTN_004_E_NEUR"
-        },
-        {
-          "question": "What is the blood-brain barrier primarily responsible for?",
-          "answers": [
-            "Circulating blood through the brain",
-            "Protecting the brain from harmful substances",
-            "Generating neural impulses",
-            "Absorbing nutrients into the brain"
-          ],
-          "rightAnswer": "Protecting the brain from harmful substances",
-          "id": "QSTN_005_E_NEUR"
-        },
-        {
-          "question": "Which of the following is a neurotransmitter primarily associated with feelings of pleasure and reward?",
-          "answers": [
-            "Serotonin",
-            "Dopamine",
-            "Norepinephrine",
-            "GABA"
-          ],
-          "rightAnswer": "Dopamine",
-          "id": "QSTN_006_E_NEUR"
-        },
-        {
-          "question": "What is the main function of myelin in the nervous system?",
-          "answers": [
-            "Generating electrical signals",
-            "Increasing the speed of signal transmission",
-            "Storing memories",
-            "Absorbing nutrients for neurons"
-          ],
-          "rightAnswer": "Increasing the speed of signal transmission",
-          "id": "QSTN_007_E_NEUR"
-        }
-      ]
-    },
-    {
-      "quizId": "neuroscience_difficult",
-      "subject": "Neuroscience",
-      "difficulty": "difficult",
-      "quizName": "Neuroscience Difficult Quiz",
-      "quizQuestions": [
-        {
-          "question": "Which neurotransmitter is primarily involved in the brain's reward system and addiction mechanisms?",
-          "answers": [
-            "Dopamine",
-            "Serotonin",
-            "GABA",
-            "Glutamate"
-          ],
-          "rightAnswer": "Dopamine",
-          "id": "QSTN_001_D_NEUR"
-        },
-        {
-          "question": "What is the primary role of the basal ganglia in the brain?",
-          "answers": [
-            "Regulating emotions",
-            "Coordinating voluntary movements",
-            "Processing sensory input",
-            "Regulating body temperature"
-          ],
-          "rightAnswer": "Coordinating voluntary movements",
-          "id": "QSTN_002_D_NEUR"
-        },
-        {
-          "question": "Which type of glial cell is involved in the formation of the blood-brain barrier?",
-          "answers": [
-            "Oligodendrocytes",
-            "Astrocytes",
-            "Microglia",
-            "Schwann cells"
-          ],
-          "rightAnswer": "Astrocytes",
-          "id": "QSTN_003_D_NEUR"
-        },
-        {
-          "question": "What is the main function of the corpus callosum?",
-          "answers": [
-            "Connects the two hemispheres of the brain",
-            "Processes auditory information",
-            "Controls autonomic functions",
-            "Produces cerebrospinal fluid"
-          ],
-          "rightAnswer": "Connects the two hemispheres of the brain",
-          "id": "QSTN_004_D_NEUR"
-        },
-        {
-          "question": "Which brain wave is typically associated with deep sleep stages?",
-          "answers": [
-            "Alpha waves",
-            "Theta waves",
-            "Beta waves",
-            "Delta waves"
-          ],
-          "rightAnswer": "Delta waves",
-          "id": "QSTN_005_D_NEUR"
-        },
-        {
-          "question": "What is the primary function of the substantia nigra in the brain?",
-          "answers": [
-            "Regulates visual processing",
-            "Involved in the production of dopamine for motor control",
-            "Coordinates speech and language",
-            "Processes olfactory information"
-          ],
-          "rightAnswer": "Involved in the production of dopamine for motor control",
-          "id": "QSTN_006_D_NEUR"
-        },
-        {
-          "question": "Which ion is critical for the release of neurotransmitters at synaptic terminals?",
-          "answers": [
-            "Potassium (K+)",
-            "Sodium (Na+)",
-            "Calcium (Ca2+)",
-            "Chloride (Cl-)"
-          ],
-          "rightAnswer": "Calcium (Ca2+)",
-          "id": "QSTN_007_D_NEUR"
-        }
-      ]
-    }
-  ]
+    ]
 }

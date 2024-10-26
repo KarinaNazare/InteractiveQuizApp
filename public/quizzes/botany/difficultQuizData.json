@@ -1,0 +1,39 @@
+[
+    {
+        "question": "What is the primary reason C4 plants are more efficient in hot climates than C3 plants?",
+        "answers": ["Better water retention","More efficient CO2 fixation at high temperatures","Resistance to UV radiation","Faster growth rates"],
+        "rightAnswer": "More efficient CO2 fixation at high temperatures",
+        "id": "QSTN_001_D_BOTN"
+    },
+    {
+        "question": "What type of plant tissue is responsible for transporting water and nutrients from the roots to the leaves?",
+        "answers": ["Phloem", "Xylem", "Cambium", "Cortex"],
+        "rightAnswer": "Xylem",
+        "id": "QSTN_002_D_BOTN"
+    },{
+        "question": "Which plant hormone is primarily responsible for fruit ripening?",
+        "answers": ["Auxin", "Cytokinin", "Ethylene", "Gibberellin"],
+        "rightAnswer": "Ethylene",
+        "id": "QSTN_003_D_BOTN"
+    },{
+        "question": "What is the scientific name of the common dandelion?",
+        "answers": ["Taraxacum officinale", "Bellis perennis", "Echinacea purpurea", "Matricaria chamomilla"],
+        "rightAnswer": "Taraxacum officinale",
+        "id": "QSTN_004_D_BOTN"
+    },{
+        "question": "In which part of a flower is the ovule found?",
+        "answers": ["Stigma","Anther", "Ovary", "Filament"],
+        "rightAnswer": "Ovary",
+        "id": "QSTN_005_D_BOTN"
+    },{
+        "question": "Which type of plastid is primarily responsible for storing starch in plants?",
+        "answers": ["Chloroplast","Chromoplast", "Amyloplast", "Leucoplast"],
+        "rightAnswer": "Amyloplast",
+        "id": "QSTN_006_D_BOTN"
+    },{
+        "question": "Which plant family does the coffee plant (Coffea arabica) belong to?",
+        "answers": ["Fabaceae","Solanaceae", "Rubiaceae", "Asteraceae"],
+        "rightAnswer": "Rubiaceae",
+        "id": "QSTN_007_D_BOTN"
+    }
+    ]

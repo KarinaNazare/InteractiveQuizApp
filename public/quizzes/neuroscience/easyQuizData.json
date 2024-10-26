@@ -1,0 +1,40 @@
+[
+    {
+        "question": "What is the primary neurotransmitter involved in muscle movement?",
+        "answers": ["Dopamine","Serotonin","Acetylcholine","Glutamate"],
+        "rightAnswer": "Acetylcholine",
+        "id": "QSTN_001_E_NEUR"
+    },
+    {
+        "question": "Which part of the brain is responsible for regulating balance and coordination?",
+        "answers": ["Cerebellum", "Hippocampus", "Amygdala", "Thalamus"],
+        "rightAnswer": "Cerebellum",
+        "id": "QSTN_002_E_NEUR"
+    },{
+        "question": "Which brain region is primarily involved in the formation of long-term memory?",
+        "answers": ["Frontal Lobe", "Hypothalamus", "Hippocampus", "Occipital Lobe"],
+        "rightAnswer": "Hippocampus",
+        "id": "QSTN_003_E_NEUR"
+    },
+    {
+        "question": "What type of cells in the nervous system are responsible for supporting neurons?",
+        "answers": ["Neurons","Axons", "Glial Cells", "Dendrites"],
+        "rightAnswer": "Glial Cells",
+        "id": "QSTN_004_E_NEUR"
+    },{
+        "question": "What is the blood-brain barrier primarily responsible for?",
+        "answers": ["Circulating blood through the brain","Protecting the brain from harmful substances", "Generating neural impulses", "Absorbing nutrients into the brain"],
+        "rightAnswer": "Protecting the brain from harmful substances",
+        "id": "QSTN_005_E_NEUR"
+    },{
+        "question": "Which of the following is a neurotransmitter primarily associated with feelings of pleasure and reward?",
+        "answers": ["Serotonin","Dopamine", "Norepinephrine", "GABA"],
+        "rightAnswer": "Dopamine",
+        "id": "QSTN_006_E_NEUR"
+    },{
+        "question": "What is the main function of myelin in the nervous system?",
+        "answers": ["Generating electrical signals","Increasing the speed of signal transmission", "Storing memories", "Absorbing nutrients for neurons"],
+        "rightAnswer": "Increasing the speed of signal transmission",
+        "id": "QSTN_007_E_NEUR"
+    }
+    ]

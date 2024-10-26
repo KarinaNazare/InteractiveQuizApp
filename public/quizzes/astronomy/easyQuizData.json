@@ -1,0 +1,38 @@
+[{
+	"question": "What is the closest planet to the Sun?",
+	"answers": ["Venus","Saturn","Mars","Mercury"],
+	"rightAnswer": "Mercury",
+	"id": "QSTN_001_E_ASTR"
+},
+{
+	"question": "How many moons does Earth have?",
+	"answers": [1, 2, 3, 0],
+	"rightAnswer": 2,
+	"id": "QSTN_002_E_ASTR"
+},{
+	"question": "What inspired our naming of the Solar System planets?",
+	"answers": ["Greek mythology", "Roman mythology", "Celtic mythology", "Sumerian mythology"],
+	"rightAnswer": "Roman mythology",
+	"id": "QSTN_003_E_ASTR"
+},{
+	"question": "How many moons does Jupiter have?",
+	"answers": [95, 100, 9, 27],
+	"rightAnswer": 95,
+	"id": "QSTN_004_E_ASTR"
+},{
+	"question": "What is the largest type of star in the universe?",
+	"answers": ["White Dwarf","Red Supergiant", "Neutron Star", "Yellow Dwarf"],
+	"rightAnswer": "Red Supergiant",
+	"id": "QSTN_005_E_ASTR"
+},{
+	"question": "What is the main component of the Sun?",
+	"answers": ["Helium","Oxygen", "Carbon", "Hydrogen"],
+	"rightAnswer": "Hydrogen",
+	"id": "QSTN_006_E_ASTR"
+},{
+	"question": "Which planet has a day that lasts longer than its year?",
+	"answers": ["Mercury","Venus", "Earth", "Mars"],
+	"rightAnswer": "Venus",
+	"id": "QSTN_007_E_ASTR"
+}
+]
